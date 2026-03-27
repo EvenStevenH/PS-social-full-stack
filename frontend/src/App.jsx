@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Feed from "./pages/Feed";
 import NavBar from "./components/NavBar";
-import { useUser } from "./context/userContext";
+import { useUser } from "./context/UserContext.jsx";
 
 function App() {
 	// bring in user info
